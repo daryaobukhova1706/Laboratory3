@@ -26,7 +26,7 @@ public class Kolosok implements KolosokInterface{
 
     @Override
     public int hashCode() {
-        return Objects.hash(onTheWayBack, behindTheBack)*127;
+        return Objects.hash(onTheWayBack, behindTheBack)*31;
     }
 
     @Override
